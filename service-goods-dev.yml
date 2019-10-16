@@ -1,5 +1,5 @@
 server:
-  port: 8702
+  port: 8703
 eureka:
   instance:
     hostname: localhost
@@ -8,4 +8,4 @@ eureka:
       defaultZone: http://localhost:8701/eureka/
 spring:
   application:
-    name: service-users
+    name: service-goods
