@@ -9,3 +9,10 @@ eureka:
 spring:
   application:
     name: service-users
+  redis:
+    host: 39.100.32.147
+    port: 6379
+    config:
+      maxTotal: 10
+      maxIdle: 5
+      maxWaitMillis: 10000
